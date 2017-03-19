@@ -1,0 +1,10 @@
+Step 9/9 : ENTRYPOINT /data/bin/vyos-build-iso
+ ---> Running in 5a715da60dbd
+ ---> 555354786caa
+Removing intermediate container 5a715da60dbd
+Successfully built 555354786caa
+
+docker: Error response from daemon: oci runtime error: container_linux.go:247: starting container process caused "exec: \"/data/bin/vyos-build-iso.sh\": permission denied".
+
+
+##TODO: Scripts works when you excute in the docker container but will not excute upon or entrypoint
