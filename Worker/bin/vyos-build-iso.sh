@@ -27,7 +27,7 @@ function build_iso {
   make iso
 
   mkdir -p "/data/output/$branch"
-  cp  /data/build-iso/livecd/VyOS-*.iso "/data/output/$branch"
+  cp  /data/build-iso/livecd/VyOS-*.iso /data/output/$branch
 }
 
 branch=$1

@@ -1,10 +1,10 @@
-Step 9/9 : ENTRYPOINT /data/bin/vyos-build-iso
- ---> Running in 5a715da60dbd
- ---> 555354786caa
-Removing intermediate container 5a715da60dbd
-Successfully built 555354786caa
+Need to test Cloud router as replacement for vyatta
 
-docker: Error response from daemon: oci runtime error: container_linux.go:247: starting container process caused "exec: \"/data/bin/vyos-build-iso.sh\": permission denied".
+Need to used minitnet and verify that muilple IPSEC tunnels can be added
 
 
-##TODO: Scripts works when you excute in the docker container but will not excute upon or entrypoint
+https://cloudrouter.org/features/
+
+https://cloudrouter.atlassian.net/wiki/display/CPD/How-tos
+
+http://mininet.org/
