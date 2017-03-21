@@ -22,6 +22,8 @@ ADD bin/vyos-build-iso.sh /data/bin/vyos-build-iso.sh
 RUN chmod +x /data/bin/vyos-build-iso.sh
 
 WORKDIR /data
-ENTRYPOINT ["sh /data/bin/vyos-build-iso.sh helium"]
+CMD /bin/bash -c "/data/bin/vyos-build-iso.sh helium"
+
+ENTRYPOINT /bin/bash -c "while true; do sleep 1000; done"
 
 
